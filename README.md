@@ -9,12 +9,12 @@ A Node.js + Express.js backend for a courier tracking and delivery management pl
 - **dotenv**
 - **cors**
 - **nodemailer (for future password reset)**
-| Role             | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| `user`           | Registers and requests delivery or tracking services                        |
-| `courier`        | Updates location, receives delivery tasks                                   |
-| `organization`   | Can request pickups or make deliveries (e.g., hospitals, labs)              |
-| `admin`          | Full access to all system operations; created manually in the database      |
+| Role             | Description                                                                 
+|------------------|------------------
+| `user`           | Registers and requests delivery or tracking services                        
+| `courier`        | Updates location, receives delivery tasks                                   
+| `organization`   | Can request pickups or make deliveries (e.g., hospitals, labs)             
+| `admin`          | Full access to all system operations; created manually in the database      
 
  Core Features
 

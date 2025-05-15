@@ -18,11 +18,11 @@ A Node.js + Express.js backend for a courier tracking and delivery management pl
 
  Core Features
 
-- 🔐 **JWT Authentication & Authorization**
-- 🧾 **Single MongoDB Collection with Role-based Logic**
-- 📍 **Manual & Real-Time Courier Location Updates**
-- 🛡️ **Role-Based Route Protection**
-- 🧑‍💼 **Admin: Account Management & Analytics-ready APIs**
-- 🔄 **Real-Time Socket.IO Setup for Courier Location (Planned)**
+- *JWT Authentication & Authorization**
+- *Single MongoDB Collection with Role-based Logic**
+- *Manual & Real-Time Courier Location Updates**
+- *Role-Based Route Protection**
+- *Admin: Account Management & Analytics-ready APIs**
+- *Real-Time Socket.IO Setup for Courier Location (Planned)**
 
 

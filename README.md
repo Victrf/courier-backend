@@ -1,11 +1,5 @@
-# 🚚 Courier Backend System
 
 A Node.js + Express.js backend for a courier tracking and delivery management platform. Designed with multi-role support for Users, Couriers, Health Organizations, and Admins, with secure authentication, real-time tracking, and admin-level control.
-
----
-
-## 📦 Tech Stack
-
 - **Node.js**
 - **Express.js**
 - **MongoDB Atlas (Mongoose)**
@@ -15,11 +9,6 @@ A Node.js + Express.js backend for a courier tracking and delivery management pl
 - **dotenv**
 - **cors**
 - **nodemailer (for future password reset)**
-
----
-
-## 👥 User Roles
-
 | Role             | Description                                                                 |
 |------------------|-----------------------------------------------------------------------------|
 | `user`           | Registers and requests delivery or tracking services                        |
@@ -27,9 +16,7 @@ A Node.js + Express.js backend for a courier tracking and delivery management pl
 | `organization`   | Can request pickups or make deliveries (e.g., hospitals, labs)              |
 | `admin`          | Full access to all system operations; created manually in the database      |
 
----
-
-## ✅ Core Features
+ Core Features
 
 - 🔐 **JWT Authentication & Authorization**
 - 🧾 **Single MongoDB Collection with Role-based Logic**
@@ -38,7 +25,4 @@ A Node.js + Express.js backend for a courier tracking and delivery management pl
 - 🧑‍💼 **Admin: Account Management & Analytics-ready APIs**
 - 🔄 **Real-Time Socket.IO Setup for Courier Location (Planned)**
 
----
-
-## 📁 Project Structure
 
